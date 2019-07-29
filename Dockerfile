@@ -1,5 +1,5 @@
 # The Alpine Linux with preinstalled Node.js
-FROM    node:8-alpine
+FROM node:10-alpine
 
 ENV PKGNAME=graphicsmagick
 ENV PKGVER=1.3.30
